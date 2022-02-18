@@ -57,9 +57,118 @@ a {
     max-width: 1200px;
     padding: 0 15px;
     margin: auto;
+
+}
+
+.container1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/IMG/jordancloud.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+    background-size: cover;
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card1{
+    background-image: url(/IMG/banned1.jpg);
+}
+
+.card2{
+    background-image: url(/IMG/offwhite1.jpg);
+}
+
+.card3{
+    background-image: url(/IMG/kaws1.jpg);
+}
+
+.card4{
+    background-image: url(/IMG/flugame1.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px 4px rgb(89, 122, 11);
+}
+
+
+
+/* Main site styling
+.img-cloud {
+    width: 100%;
     
 }
 
+.text-title {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: bold;
+}
+
+.secondary-title {
+    font-family: 'Mochiy Pop P One', sans-serif;  
+}
+
+.display-1 {
+    font-size: 22px;
+}
+
+.display-2 {
+    font-size: 16px;
+}
+
+.display-3 {
+    font-size: 14px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+*/
 /*section styling */
 
 /*navigation menu*/
@@ -118,6 +227,25 @@ a {
 
 /*Navigation Menu End*/
 
+/*Main Section*/
+/*
+#site-main {
+    margin-top: 8em;
+}
+
+#posts {
+    margin-bottom: 5em;
+}
+
+.grid {
+    margin: 0 auto;
+}
+
+.grid .grid-item {
+    width: calc(25% - 20px);
+    margin-bottom: 3em;
+}
+*/
 /*Media Query*/
 
 @media (max-width: 992px){
@@ -134,6 +262,7 @@ a {
   .collapse {
       max-height: 0;
       overflow: hidden;
+      transition: all 0.8s ease-in;
   }
 
   .collapse.nav-link {
@@ -143,6 +272,10 @@ a {
 
   .search-box {
       border-right: none;
+  }
+
+  .collapse-toggle {
+      max-height: 500px;
   }
 
 }
