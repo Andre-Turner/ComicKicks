@@ -1,8 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mochiy+Pop+P+One&family=Roboto&display=swap');
+
+/*
+font-family: 'DM Sans', sans-serif;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+/* root styling */
+
 
 .container{
     width: 100%;
@@ -72,6 +82,8 @@ span#bluetext {
 h1{
     color: #fff;
     font-size: 100px;
+    font-family: 'DM Sans', sans-serif;
+    
 }
 
 p{
