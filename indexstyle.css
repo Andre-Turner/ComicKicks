@@ -15,6 +15,19 @@
     box-sizing: border-box;
 }
 
+span#greentext {
+    color: green;
+}
+
+span#yellowtext {
+    color: rgb(202, 185, 26);
+}
+
+span#bluetext {
+    color: rgb(28, 28, 224);
+}
+
+
 .navbar{
     height: 12%;
     display: flex;
@@ -82,7 +95,7 @@ p{
 
 h5{
     color: #fff;
-    text-shadow: 0 0 5px #999;
+    text-shadow: 0 0 5px rgb(202, 185, 26);
 }
 
 .card1{

@@ -32,6 +32,8 @@ a {
     box-sizing: border-box;
 }
 
+
+
 /*global styling */
 .text-light{
     color:var(--light);
@@ -63,7 +65,7 @@ a {
 .container1{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/IMG/jordancloud.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/IMG/Nikebackground.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -106,24 +108,24 @@ p{
 }
 
 h5{
-    color: #fff;
-    text-shadow: 0 0 5px #999;
+    color: black;
+    text-shadow: 0 0 5px rgb(202, 185, 26);
 }
 
 .card1{
-    background-image: url(/IMG/banned1.jpg);
+    background-image: url(/IMG/Dunks.jpg);
 }
 
 .card2{
-    background-image: url(/IMG/offwhite1.jpg);
+    background-image: url(/IMG/Airmag.jpg);
 }
 
 .card3{
-    background-image: url(/IMG/kaws1.jpg);
+    background-image: url(/IMG/Airforce1.jpg);
 }
 
 .card4{
-    background-image: url(/IMG/flugame1.jpg);
+    background-image: url(/IMG/AirmaxNike.jpg);
 }
 
 .card:hover{
