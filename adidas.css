@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mochiy+Pop+P+One&family=Roboto&display=swap');
+
+/*
+font-family: 'DM Sans', sans-serif;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+/* root styling */
+
+:root{
+    --light: #f8f9fa;
+    --secondary: #adb5bd;
+    --dark: #343a40;
+    --primary-color: #6eb874;
+    --secondary-color: #2ec4b6;
+    --border: #e9ecef; 
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+*>* {
+    box-sizing: border-box;
+}
+
+/*global styling */
+.text-light{
+    color:var(--light);
+}
+
+.text-secondary {
+    color:var(--secondary);
+}
+
+.text-dark {
+    color:var(--dark);
+}
+
+.text-primary {
+    color:var(--primary-color);
+}
+
+.bg-light {
+    background-color: var(--light);
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+
+}
+
+.container1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/IMG/adidasbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+    background-size: cover;
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px rgb(233, 66, 16);
+}
+
+.card1{
+    background-image: url(/IMG/yeezy1.jpg);
+}
+
+.card2{
+    background-image: url(/IMG/boost.jpg);
+}
+
+.card3{
+    background-image: url(/IMG/nmd.jpg);
+}
+
+.card4{
+    background-image: url(/IMG/shelltoe.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px 4px rgb(89, 122, 11);
+}
+
+
+
+/* Main site styling
+.img-cloud {
+    width: 100%;
+    
+}
+
+.text-title {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: bold;
+}
+
+.secondary-title {
+    font-family: 'Mochiy Pop P One', sans-serif;  
+}
+
+.display-1 {
+    font-size: 22px;
+}
+
+.display-2 {
+    font-size: 16px;
+}
+
+.display-3 {
+    font-size: 14px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+*/
+/*section styling */
+
+/*navigation menu*/
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-brand {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    align-self: center;
+    font-size: 32px;
+}
+
+.collapse {
+    align-self: center;
+}
+
+.nav-link {
+    font-size: 18px;
+    margin: 12px;
+    color: var(--dark);
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+
+.search-box {
+    display: inline;
+    border-right: 1px solid var(--secondary);
+    padding-right: 12px;
+    margin-right: 10px;
+}
+
+.toggle-button {
+    font-size:21px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    margin: 8px 10px;
+    display: none;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+/*Navigation Menu End*/
+
+/*Main Section*/
+/*
+#site-main {
+    margin-top: 8em;
+}
+
+#posts {
+    margin-bottom: 5em;
+}
+
+.grid {
+    margin: 0 auto;
+}
+
+.grid .grid-item {
+    width: calc(25% - 20px);
+    margin-bottom: 3em;
+}
+*/
+/*Media Query*/
+
+@media (max-width: 992px){
+    .navbar{
+     flex-direction: column;
+    }
+}
+
+@media (max-width: 574px){
+    .toggle-button{
+     display: initial;
+    }
+
+  .collapse {
+      max-height: 0;
+      overflow: hidden;
+      transition: all 0.8s ease-in;
+  }
+
+  .collapse.nav-link {
+    display: block;
+    text-align: center;
+  }
+
+  .search-box {
+      border-right: none;
+  }
+
+  .collapse-toggle {
+      max-height: 500px;
+  }
+
+}
