@@ -63,7 +63,7 @@ a {
 .container1{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/IMG/adidasbackground.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/IMG/VansBackground.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -111,19 +111,19 @@ h5{
 }
 
 .card1{
-    background-image: url(/IMG/yeezy1.png);
+    background-image: url(/IMG/Vans1.jpg);
 }
 
 .card2{
-    background-image: url(/IMG/boost.jpg);
+    background-image: url(/IMG/Vans2.jpg);
 }
 
 .card3{
-    background-image: url(/IMG/nmd.jpg);
+    background-image: url(/IMG/Vans3.jpg);
 }
 
 .card4{
-    background-image: url(/IMG/shelltoe.jpg);
+    background-image: url(/IMG/Vans4.jpg);
 }
 
 .card:hover{
