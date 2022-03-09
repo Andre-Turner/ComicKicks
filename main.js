@@ -11,6 +11,7 @@ new Masonry("#posts.grid",{
   gutter: 20
 });
 
+//Read More Button
 const readMoreBtn = document.querySelector(".read-more-btn");
 const text = document.querySelector(".text");
 
