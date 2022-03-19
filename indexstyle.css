@@ -17,7 +17,7 @@ font-family: 'Roboto', sans-serif;
 .container{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/IMG/background1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(IMG/background1.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -111,19 +111,19 @@ h5{
 }
 
 .card1{
-    background-image: url(/IMG/Airjordan1.jpg);
+    background-image: url(IMG/Airjordan1.jpg);
 }
 
 .card2{
-    background-image: url(/IMG/vansIndex.jpg);
+    background-image: url(IMG/vansIndex.jpg);
 }
 
 .card3{
-    background-image: url(/IMG/Adidas1.jpg);
+    background-image: url(IMG/Adidas1.jpg);
 }
 
 .card4{
-    background-image: url(/IMG/Nike.jpg);
+    background-image: url(IMG/Nike.jpg);
 }
 
 .card:hover{
