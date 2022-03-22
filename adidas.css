@@ -26,6 +26,7 @@ body {
     
 }
 
+/* Read More Button Styling*/
 .moreText {
     display: none;
 }
@@ -88,6 +89,7 @@ a {
 
 }
 
+/* Styling for background and elements within box */
 .container1{
     width: 100%;
     height: 100vh;
@@ -99,6 +101,8 @@ a {
     box-sizing: border-box;
 }
 
+/* FLEX - The element behaves like a block element and lays out its content according to the flexbox model.
+*/
 .row{
     display: flex;
     height: 88%;
@@ -107,6 +111,7 @@ a {
 
 /*The flex-basis CSS property sets the initial main size of a flex item. It sets the size of the content box unless otherwise set with box-sizing.*/
 
+/* card alignments on the page*/
 .col{
     flex-basis: 50%;
 }
@@ -121,7 +126,7 @@ p{
     font-size: 11px;
     line-height: 15px;
 }
-
+/* Styling of the cards */
 .card{
     width: 200px;
     height: 230px;
