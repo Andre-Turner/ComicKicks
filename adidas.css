@@ -112,8 +112,9 @@ a {
 /*The flex-basis CSS property sets the initial main size of a flex item. It sets the size of the content box unless otherwise set with box-sizing.*/
 
 /* card alignments on the page*/
+
 .col{
-    flex-basis: 50%;
+    flex-basis: 50%; /*The flex-basis CSS property sets the initial main size of a flex item. It sets the size of the content box unless otherwise set with box-sizing.*/
 }
 
 h1{
@@ -161,6 +162,8 @@ h5{
     background-image: url(IMG/shelltoe.jpg);
 }
 
+/*The transform CSS property lets you rotate, scale, skew, or translate an element. I
+*/
 .card:hover{
     transform: translateY(-10px);
     box-shadow: 0 0 10px 4px rgb(89, 122, 11);
@@ -303,9 +306,13 @@ Syntax: row | row-reverse | column | column-reverse */
      display: initial;
     }
 
+/* Styling for navbar
+*/
   .collapse {
       max-height: 0;
-      overflow: hidden;
+
+      overflow: hidden; /*The overflow CSS shorthand property sets the desired behavior for an element's overflow — i.e. when an element's content is too big to fit in its block formatting context — in both directions.*/
+
       transition: all 0.8s ease-in;
   }
 
