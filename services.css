@@ -38,6 +38,7 @@ body {
     text-align: center;
 }
 
+/* Line under "Our Services" styling */
 .line {
     width: 150px;
     height: 3px;

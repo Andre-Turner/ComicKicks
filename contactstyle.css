@@ -8,11 +8,17 @@
     background-size: cover;
     padding: 40px 0;
 }
+
+/* "Contact Us" Styling*/
+
 .contact-section h1 {
     text-align: center;
     color: #fff;
     font-size: 55px;
 }
+
+/* Line under the "Contact Us" Styling*/
+
 .border {
     width: 100px;
     height: 10px;
@@ -20,18 +26,20 @@
     margin: 40px auto;
 }
 
+/*Form Styling*/
 .contact-form{
-    max-width: 600px;
-    margin: auto;
+    max-width: 600px; /* Styling to the width of box*/
+    margin: auto; /*The browser selects a suitable margin to use. For example, in certain cases this value can be used to center an element.*/
     padding: 0 10px;
     overflow: hidden;
 }
 
+/* Text box styling */
 .contact-form-text{
     display: block;
     width: 100%;
     box-sizing: border-box;
-    margin: 16px 0;
+    margin: 16px 0;/* created space between the text boxes*/
     border: 0;
     background: #111;
     padding: 20px 40px;
@@ -40,6 +48,7 @@
     transition: 0.5s;
 }
 
+/* shadow effect */
 .contact-form-text:focus{
     box-shadow: 0 0 10px 4px #f1c40f;
 }
