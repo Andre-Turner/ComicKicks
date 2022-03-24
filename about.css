@@ -6,7 +6,7 @@
 }
 
 body{
-    min-height: 100vh;
+    min-height: 100vh; /* Allow me to constrain the height of the content to a certain range*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +17,7 @@ body{
     background: url(IMG/aboutIMG.jpg) no-repeat;
     background-size: 55%;
     background-color: #fdfdfd;
-    overflow: hidden;
+    overflow: hidden; /* Content is clipped if necessary to fit the padding box. */
     padding: 100px 0;
 }
 
