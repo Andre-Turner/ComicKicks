@@ -9,10 +9,11 @@ body {
 }
 
 .wrapper {
-    width:  1170px;
+    width:  1170px; /* Sizing and alignment of my service boxes*/
     margin: 5% auto;
 }
 
+/* "OUR SERVICES" STYLING */
 .wrapper h2 {
     text-transform: uppercase;
     font-weight: bold;
@@ -22,12 +23,13 @@ body {
     margin: 0;
 }
 
+/* Box Styling*/
 .single-service {
     position: relative;
     width: 31%;
     height: 320px;
     background: #fff;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     padding: 0 15px;
     transition: .5s;
     overflow: hidden;
@@ -55,6 +57,7 @@ body {
     color: #262626;
 }
 
+/* Icon Styling */
 .social {
     width: 60px;
     height: 60px;
@@ -69,6 +72,7 @@ body {
     color: #fff;
 }
 
+/*Hover Transition effect*/
 .single-service span {
     position: absolute;
     top: 0;
@@ -77,7 +81,7 @@ body {
     height: 100%;
     background: rgba(0,0,0,0.7);
     transition: .7s;
-    transform: skewX(10deg);
+    transform: skewX(10deg); /* Transitions in diagnal */
 }
 
 .single-service:hover span {
